@@ -27,7 +27,7 @@ import javax.ws.rs.core.MediaType;
  */
 
 @AccessToken
-@RegisterRestClient(baseUri = "http://localhost:8082/backend")
+@RegisterRestClient(baseUri = "http://localhost:8082/getSum")
 public interface BackendClient {
 
     @GET
